@@ -1,0 +1,39 @@
+html{
+    background-color: black;
+}
+.content{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+
+
+}
+
+
+/*
+align-items: positions itemS up(start) or down(end) axis, also center them; (stretch is defult)
+justify-items: position itemS left to right axis, alo center them;
+
+align-self: position item up(start) or down(end) axis, also center them; (stretch is defult)
+justify-self: position item left to right axis, also center them 
+*/
+
+.content div{
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(64, 64, 255);
+    
+}
+
+
+.box:nth-child(2n){
+    background-color: coral;
+}
+
+
+
